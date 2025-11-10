@@ -1,0 +1,8 @@
+Features system design flow 
+1  Register-->Request send to Admin 
+2  Login -->If Approve && credentail match then JWT generate--->middleware verify jwt for accessing Protected Route.
+3. LeaderBoard CRUD -->POST api admin & GET api Register Comp
+4. Create BATCH -->Admin Post Api && Tutor & Student Get api using userEmail
+5. Send Assignment (Tutor)-->Post api Assg with BatchName & Student in that Batch Get Api with BatchName params
+6. Contact(Admin,Tutor,Student)-->
+7. Payment(Student Razorpay,paypal api)
