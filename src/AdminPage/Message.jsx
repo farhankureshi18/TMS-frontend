@@ -213,7 +213,7 @@ export default function AdminMessagingPanel() {
 
         {/* Right: Announcements */}
         <div className="bg-gray-200 p-6 rounded-2xl shadow-xl border border-gray-300">
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">📢 Make Announcement</h3>
+          <h3 className="text-xl font-semibold mb-4 text-gray-800"> Make Announcement</h3>
           <textarea
             value={announcementMessage}
             onChange={(e) => setAnnouncementMessage(e.target.value)}

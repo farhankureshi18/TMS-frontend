@@ -99,7 +99,7 @@ const LeaderboardCardInput = () => {
         {/* Add/Edit Form */}
         <div className="w-80 sm:w-96 bg-white shadow-xl rounded-2xl p-6 border border-gray-300">
           <h2 className="text-xl font-bold text-gray-800 text-center mb-3">
-            {editId ? "✏️ Edit Student" : "➕ Add Student"}
+            {editId ? "✏️ Edit Student" : "Add Student"}
           </h2>
 
           <form
@@ -128,13 +128,13 @@ const LeaderboardCardInput = () => {
               type="submit"
               className="py-2 mt-2 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold hover:from-blue-700 hover:to-purple-700 transition"
             >
-              {editId ? "✅ Update" : "✅ Submit"}
+              {editId ? "Update" : " Submit"}
             </button>
           </form>
 
           {snackbar && (
             <div className="mt-3 text-green-600 text-sm text-center">
-              ✅ {editId ? "Card Updated" : "Card Added"} Successfully!
+               {editId ? "Card Updated" : "Card Added"} Successfully!
             </div>
           )}
         </div>
@@ -142,7 +142,7 @@ const LeaderboardCardInput = () => {
         {/* Admin Notes */}
         <div className="w-80 sm:w-96 bg-white shadow-xl rounded-2xl p-6 border border-gray-300">
           <h2 className="text-xl font-bold text-gray-800 text-center mb-3">
-            📝 Admin Notes
+             Admin Notes
           </h2>
           <textarea
             placeholder="Write notes here..."

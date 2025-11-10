@@ -125,7 +125,7 @@ const StudentDashboard = () => {
               <h3 className="text-lg font-semibold">{a.assignmentName}</h3>
               <p className="text-gray-600">{a.desc}</p>
               <p className="mt-2 text-sm text-gray-500">
-                📚 {a.batchName}
+                {a.batchName}
               </p>
               {a.file && (
                 <p className="text-sm text-gray-500">

@@ -182,7 +182,7 @@ export default function Assignments() {
           <h3 className="text-lg font-semibold">{a.assignmentName}</h3>
           <p className="text-gray-600">{a.description}</p>
           <p className="mt-2 text-sm text-gray-500">
-            📚 {a.batchName} | 📅 Date: {a.date}
+             {a.batchName} |  Date: {a.date}
           </p>
           {a.file && <p className="text-sm text-gray-500">📄 {a.file}</p>}
           <p className="mt-2 text-orange-500 font-medium">

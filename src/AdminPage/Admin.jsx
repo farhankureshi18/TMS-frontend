@@ -52,7 +52,7 @@ const Admin = () => {
           ))}
         </div>
 
-        {/* ✅ Wrap dynamic components in context provider */}
+        {/* Wrap dynamic components in context provider */}
        <div className="bg-white rounded-xl shadow-md p-4 mb-6">
         {renderComponent()}
        </div>
